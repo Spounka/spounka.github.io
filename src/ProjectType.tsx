@@ -1,6 +1,6 @@
 export interface ProjectType {
     id: string;
     name: string;
-    link: string;
-    github: string;
+    link: string | null;
+    github: string | null;
 }
