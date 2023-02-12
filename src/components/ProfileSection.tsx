@@ -6,17 +6,12 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-import profile from '../assets/profile.jpg';
-
-function ProfileImage() {
+function ProfileSection({ children }: any) {
     return (
-        <div
-            className={"p-[.12rem] w-[120px] h-[120px] rounded-full bg-gradient-to-br from-main-blue to-main-dark"}>
-            <div className={'rounded-full bg-white p-1'}>
-                <img src={profile} alt={"img"} className={"rounded-full"} />
-            </div>
+        <div className="flex flex-col">
+            {children}
         </div>
     );
 }
 
-export default ProfileImage;
+export default ProfileSection;

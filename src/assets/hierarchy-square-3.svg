@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="vuesax_bulk_hierarchy-square-3" data-name="vuesax/bulk/hierarchy-square-3" transform="translate(-556 -188)">
+    <g id="hierarchy-square-3" transform="translate(556 188)">
+      <path id="Vector" d="M0,0H20V20H0Z" fill="none" opacity="0"/>
+      <path id="Vector-2" data-name="Vector" d="M11.817,16.658H4.842A4.447,4.447,0,0,1,0,11.817V4.842A4.447,4.447,0,0,1,4.842,0h6.975a4.447,4.447,0,0,1,4.842,4.842v6.975A4.447,4.447,0,0,1,11.817,16.658Z" transform="translate(1.675 1.675)" fill="#0d497f" opacity="0.4"/>
+      <path id="Vector-3" data-name="Vector" d="M8.883,3.383A3.618,3.618,0,0,1,5.475,5.808H5.458L3.742,5.8H3.733a1.4,1.4,0,0,0-1.35,1.033,1.832,1.832,0,1,1-1.3.075V3.292a1.708,1.708,0,1,1,1.25,0V4.975a2.62,2.62,0,0,1,1.4-.408h.008l1.717.008A2.31,2.31,0,0,0,7.667,3.058a1.72,1.72,0,1,1,1.217.325Z" transform="translate(4.792 4.808)" fill="#0d497f"/>
+    </g>
+  </g>
+</svg>
