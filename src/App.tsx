@@ -40,7 +40,7 @@ function App() {
     return (
         <div
             className={
-                "flex justify-center align-middle md:p-24 md:pt-6 md:pb-0 md:bg-[#EEF0F2]"
+                "flex justify-center align-middle md:p-80 md:pt-6 md:pb-0 md:bg-[#EEF0F2]"
             }
         >
             <div
