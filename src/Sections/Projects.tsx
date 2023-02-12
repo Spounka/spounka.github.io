@@ -14,7 +14,7 @@ function Projects({ projects }: props) {
                 <img
                     src={top_left_corner}
                     alt="gradient top left corner"
-                    className={"-z-10 absolute top-0 left-0 p-0 m-0"}
+                    className={"absolute top-0 left-0 p-0 m-0"}
                 />
 
                 <div className={""}>
