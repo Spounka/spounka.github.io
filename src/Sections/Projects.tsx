@@ -22,7 +22,6 @@ function Projects({ projects }: props) {
                         return (
                             <Project
                                 key={project.id}
-                                id={project.id}
                                 name={project.name}
                                 link={project.link}
                                 github={project.github}
