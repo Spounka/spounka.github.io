@@ -18,7 +18,7 @@ function ProfileImage() {
             <div className={"rounded-full bg-white p-1"}>
                 <img src={profile} alt={"img"} className={"rounded-full"} />
             </div>
-            <div className="flex absolute -left-[110%] gap-2">
+            <div className="hidden md:flex absolute md:-left-[110%] gap-2">
                 <h4 className={"font-poppins-sans self-center"}>IT's me</h4>
                 <img src={arrow} alt="right pointing arrow" />
             </div>
