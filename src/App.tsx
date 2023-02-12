@@ -18,16 +18,28 @@ const projects: ProjectType[] = [
     },
     {
         id: uuidv4(),
-        name: "Anas Portfolio",
-        link: "https://anasfolio.onrender.com/",
-        github: "https://github.com/Spounka/anasfolio/",
+        name: "SE-Logger",
+        link: null,
+        github: "https://github.com/Spounka/Logger",
+    },
+    {
+        id: uuidv4(),
+        name: "GLSL Include Parser",
+        link: null,
+        github: "https://github.com/Spounka/glsl-include-parser",
+    },
+    {
+        id: uuidv4(),
+        name: "LD 48H Game Competion",
+        link: "https://spounka.itch.io/pain-survival",
+        github: "https://github.com/Spounka/ldjam-50",
     },
 ];
 
 function App() {
     return (
         <>
-            <div className="flex flex-col pl-4 min-h-screen md:mr-0 md:pl-11">
+            <div className="flex flex-col pl-4 min-h-screen md:mr-0 md:pl-11 mb-2">
                 <TopNavBar />
                 <div className="flex">
                     <SideBar />
