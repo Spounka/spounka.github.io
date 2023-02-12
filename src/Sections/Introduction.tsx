@@ -7,13 +7,15 @@ function Introduction() {
             <ProfileSection>
                 <ProfileDescription />
             </ProfileSection>
-            <button
+            <a
+                href={"/cv.pdf"}
+                download
                 className={
                     "mt-[26px] bg-main-dark py-3 flex self-center justify-center text-white rounded-[40px] w-[272px]"
                 }
             >
                 Download CV
-            </button>
+            </a>
         </div>
     );
 }
