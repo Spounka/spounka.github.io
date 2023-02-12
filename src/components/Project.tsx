@@ -41,20 +41,24 @@ function Project({ name, link, github }: any) {
                     animate={controls}
                     transition={{ duration: 0.3, ease: "easeInOut" }}
                 >
-                    <a
-                        className="flex gap-1 align-middle bg-white rounded-md p-1"
-                        href={link}
-                        target={"_blank"}
-                    >
-                        <img src={link_svg} alt="link logo" className="h-5" />
-                    </a>
-                    <a
-                        className="flex gap-1 align-middle bg-white rounded-md p-1"
-                        href={github}
-                        target={"_blank"}
-                    >
-                        <img src={github_svg} alt="github logo" className="h-5" />
-                    </a>
+                    {link && (
+                        <a
+                            className="flex gap-1 align-middle bg-white rounded-md p-1"
+                            href={link}
+                            target={"_blank"}
+                        >
+                            <img src={link_svg} alt="link logo" className="h-5" />
+                        </a>
+                    )}
+                    {github && (
+                        <a
+                            className="flex gap-1 align-middle bg-white rounded-md p-1"
+                            href={github}
+                            target={"_blank"}
+                        >
+                            <img src={github_svg} alt="github logo" className="h-5" />
+                        </a>
+                    )}
                 </motion.div>
             </div>
         </motion.div>
