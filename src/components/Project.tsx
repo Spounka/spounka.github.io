@@ -3,7 +3,7 @@ import link_svg from "../assets/link.svg";
 import github_svg from "../assets/logo--github.svg";
 import CodeIcon from "./CodeIcon";
 
-function Project({ id, name, link, github, isActive }: any) {
+function Project({ name, link, github }: any) {
     const controls = useAnimationControls();
 
     return (
@@ -27,13 +27,13 @@ function Project({ id, name, link, github, isActive }: any) {
                     });
                 }}
             >
-                <button
+                <div
                     className={
                         "font-poppins-sans text-left font-normal text-xl text-[#3E464E]"
                     }
                 >
                     {name}
-                </button>
+                </div>
                 <motion.div
                     className={
                         "flex align-top gap-x-5 h-0 -translate-y-1 overflow-hidden"
