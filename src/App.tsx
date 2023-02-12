@@ -18,7 +18,7 @@ const projects: ProjectType[] = [
     },
     {
         id: uuidv4(),
-        name: "Anas Porfolio",
+        name: "Anas Portfolio",
         link: "https://anasfolio.onrender.com/",
         github: "https://github.com/Spounka/anasfolio/",
     },
