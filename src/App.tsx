@@ -40,12 +40,12 @@ function App() {
     return (
         <div
             className={
-                "flex justify-center align-middle md:p-80 md:pt-6 md:pb-0 md:bg-[#EEF0F2]"
+                "absolute -z-30 flex justify-center align-middle md:p-8 md:pb-0 md:pt-6 xl:p-80 xl:pt-6 xl:pb-0 md:bg-[#EEF0F2]"
             }
         >
             <div
-                className={`flex flex-col pl-4 min-h-screen md:mr-0 md:pl-11 md:pb-9
-                            rounded-3xl rounded-b-none shadow-[0_38px_20px_rgba(0, 0, 0, 0.16)] pr-10 bg-white`}
+                className={`-z-20 flex flex-col pl-4 min-h-screen md:mr-0 md:pl-11 md:pb-9
+                            rounded-3xl rounded-b-none shadow-[0_38px_20px_rgba(0, 0, 0, 0.16)] pr-2 lg:pr-10 bg-white`}
             >
                 <TopNavBar />
                 <div className="flex">

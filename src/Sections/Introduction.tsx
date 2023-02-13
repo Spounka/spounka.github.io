@@ -11,7 +11,7 @@ function Introduction() {
                 href={"/cv.pdf"}
                 download
                 className={
-                    "mt-[26px] bg-main-dark py-3 flex self-center justify-center text-white rounded-[40px] w-[150px] lg:w-[272px]"
+                    "mt-[26px] bg-main-dark py-3 flex self-center justify-center text-white rounded-[40px] w-[150px] xl:w-[272px]"
                 }
             >
                 Download CV

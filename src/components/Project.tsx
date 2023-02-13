@@ -7,10 +7,10 @@ function Project({ name, link, github }: any) {
     const controls = useAnimationControls();
 
     return (
-        <motion.div className={"group flex gap-1.5"}>
+        <motion.div className={"flex gap-1.5 z-10 cursor-pointer"}>
             <CodeIcon />
             <div
-                className={"flex flex-col gap-5 align-top"}
+                className={"flex flex-col content-start justify-start text-start gap-5"}
                 onMouseEnter={() => {
                     controls.stop();
                     controls.start({
@@ -23,20 +23,20 @@ function Project({ name, link, github }: any) {
                     controls.stop();
                     controls.start({
                         opacity: 0,
-                        height: "0",
+                        height: 0,
                     });
                 }}
             >
-                <div
+                <h4
                     className={
-                        "font-poppins-sans text-left font-normal text-xl text-[#3E464E]"
+                        "font-poppins-sans text-left justify-start content-start font-normal text-base md:text-sm lg:text-lg text-[#3E464E]"
                     }
                 >
                     {name}
-                </div>
+                </h4>
                 <motion.div
                     className={
-                        "flex align-top gap-x-5 h-0 -translate-y-1 overflow-hidden"
+                        "flex content-start justify-start gap-x-5 h-0 -translate-y-1 overflow-hidden"
                     }
                     animate={controls}
                     transition={{ duration: 0.3, ease: "easeInOut" }}
