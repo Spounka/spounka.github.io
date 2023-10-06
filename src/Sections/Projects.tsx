@@ -2,13 +2,14 @@ import bottom_right_corner from "../assets/br-corner.svg";
 import top_left_corner from "../assets/tl-corner.svg";
 import Project from "../components/Project";
 import { ProjectType } from "../ProjectType";
+
 interface props {
     projects: ProjectType[];
 }
 
 function Projects({ projects }: props) {
     return (
-        <div className="pl-4 mb-4">
+        <section className="pl-4 mb-4">
             <h1 className={"font-poppins-sans text-3xl font-medium mb-4"}>Projects</h1>
             <div className="relative mr-5 pt-7 pl-5 pb-12">
                 <img
@@ -20,12 +21,7 @@ function Projects({ projects }: props) {
                 <div className={"flex flex-col align-top content-start"}>
                     {projects.map((project) => {
                         return (
-                            <Project
-                                key={project.id}
-                                name={project.name}
-                                link={project.link}
-                                github={project.github}
-                            />
+                            <Project key={project.id} name={project.name} link={project.link} github={project.github} />
                         );
                     })}
                 </div>
@@ -36,7 +32,7 @@ function Projects({ projects }: props) {
                     className="absolute bottom-0 right-0"
                 />
             </div>
-        </div>
+        </section>
     );
 }
 

@@ -1,5 +1,5 @@
-import {v4 as uuidv4} from "uuid";
-import {ProjectType} from "./ProjectType";
+import { v4 as uuidv4 } from "uuid";
+import { ProjectType } from "./ProjectType";
 
 export const projects: ProjectType[] = [
     {
