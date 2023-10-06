@@ -1,40 +1,13 @@
-import { v4 as uuidv4 } from "uuid";
 import CatchyLineText from "./components/CatchyLineText";
 import ProfileHeader from "./components/ProfileHeader";
 import TextWithLineUnder from "./components/TextWithLineUnder";
-import { ProjectType } from "./ProjectType";
+import {projects} from "./projects";
 import Footer from "./Sections/Footer";
 import Introduction from "./Sections/Introduction";
 import Projects from "./Sections/Projects";
 import SideBar from "./Sections/SideBar";
 import TopNavBar from "./Sections/TopNavBar";
 
-const projects: ProjectType[] = [
-    {
-        id: uuidv4(),
-        name: "Zak Portfolio",
-        link: "https://zakfolio.onrender.com/",
-        github: "https://github.com/Spounka/zakfolio/",
-    },
-    {
-        id: uuidv4(),
-        name: "SE-Logger",
-        link: null,
-        github: "https://github.com/Spounka/Logger",
-    },
-    {
-        id: uuidv4(),
-        name: "GLSL Include Parser",
-        link: null,
-        github: "https://github.com/Spounka/glsl-include-parser",
-    },
-    {
-        id: uuidv4(),
-        name: "LD 48H Game Competion",
-        link: "https://spounka.itch.io/pain-survival",
-        github: "https://github.com/Spounka/ldjam-50",
-    },
-];
 
 function App() {
     return (
