@@ -4,6 +4,12 @@ import { ProjectType } from "./ProjectType";
 export const projects: ProjectType[] = [
     {
         id: uuidv4(),
+        name: "ClickR Photography",
+        link: "https://clickr-sr6x.onrender.com/",
+        github: "https://github.com/Spounka/clickr-landing-page/",
+    },
+    {
+        id: uuidv4(),
         name: "Zak Portfolio",
         link: "https://zakfolio.onrender.com/",
         github: "https://github.com/Spounka/zakfolio/",
